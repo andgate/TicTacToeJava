@@ -14,20 +14,21 @@ public class Board
       either a CIRCLE or a CROSS.
     */
    enum Cell {
-     CROSS("X"),
-     CIRCLE("O"),
-     EMPTY("");
-   
-     // Member to hold the name
+      CROSS("X"),
+      CIRCLE("O"),
+      EMPTY(" ");
+      
+        // Member to hold the name
       private String string;
-   
+      
       // constructor to set the string
       private Cell(String name) { string = name; }
-   
-      // the toString just returns the given name
-      public String toString() {
-          return string;
-      }
+      
+      /**
+         @return The string representation
+                 of a cell.
+       */
+      public String toString() { return string; }
    }
    
    private Cell[][] cells;

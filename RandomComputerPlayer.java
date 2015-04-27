@@ -18,6 +18,7 @@ public class RandomComputerPlayer extends Player
     */
    public RandomComputerPlayer()
    {
+      super();
       random = new Random();
    }
    
@@ -29,6 +30,7 @@ public class RandomComputerPlayer extends Player
     */
    public RandomComputerPlayer(long seed)
    {
+      super();
       random = new Random(seed);
    }
 
@@ -66,5 +68,6 @@ public class RandomComputerPlayer extends Player
       // If it is empty, mark it with this players mark,
       // and return true.
       // If it is not empty, return false.
+      return false;
    }
 }

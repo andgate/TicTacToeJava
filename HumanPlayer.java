@@ -21,6 +21,7 @@ public class HumanPlayer extends Player
     */
    public HumanPlayer()
    {
+      super();
       in = new Scanner(System.in);
    }
    
@@ -48,6 +49,7 @@ public class HumanPlayer extends Player
       // mark the board and return true.
       // otherwise
       // Tell the player and return false.
+      return false;
    }
    
    /**
@@ -60,6 +62,7 @@ public class HumanPlayer extends Player
       // While the move given is null
       // keep trying.
       // Finally, return the move.
+      return null;
    }
    
    /**
@@ -73,6 +76,7 @@ public class HumanPlayer extends Player
       // Ask the player for a move.
       // Get two int values from the scanner.
       // If that fails, return null.
+      return null;
    }
    
    /**
@@ -89,6 +93,7 @@ public class HumanPlayer extends Player
       // If the board is already marked there,
       // report that and return false.
       
-      // Otherwise, return true;
+      // Otherwise, return true
+      return false;
    }
 }

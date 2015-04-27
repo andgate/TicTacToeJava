@@ -104,8 +104,7 @@ public class TicTacToe
       // Tell the current player to play their turn
       // with a given board.
       
-      // log the result.
-
+      // Print the board.
       // If there is a winner or a tie,
       // Then end the game.
    }
@@ -122,8 +121,5 @@ public class TicTacToe
       // print that it was a tie.
       // Else if it belongs to player one, report it.
       // Else then player two won, so report that.
-      
-      // Log that mark as the winning mark in the log.
-      // And tell the log to save to disk.
    }
 }
